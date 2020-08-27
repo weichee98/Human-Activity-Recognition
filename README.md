@@ -149,6 +149,6 @@ The method `analyze` consists of the whole pipeline to process a video frame-by-
 
 ### Pose Classifier
 
-![image1](images/Subway/processed/20200527-210334-0010.jpg)
+![image1](/images/Subway/processed/20200527-210334-00010.jpg)
 
 
