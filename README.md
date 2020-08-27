@@ -1,7 +1,7 @@
 # Human Activity Recognition using OpenPose
 
 [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) is an open source library used for multi-person keypoint detection. 
-This project is to use the keypoints obtained from OpenPose detection on images, and predict whether a person is standing or sitting.
+This project uses the keypoints obtained from OpenPose detection on images, and predict whether a person is standing or sitting.
 
 
 ## Getting Started
@@ -145,6 +145,13 @@ This file contains a class `VideoPose`, which is used to analyze a video, frame-
 The method `analyze` consists of the whole pipeline to process a video frame-by-frame and get the output from it.
 
 
+## Jupyter Notebook
+
+#### 1. [dataset/Pose_Estimation_Training](https://github.com/weichee98/Human-Activity-Recognition/blob/master/dataset/Pose_Estimation_Training.ipynb)
+
+This Jupyter Notebook contains code for modeling, training and evaluating of the deep neural network classifier created to predict a person's pose using keypoints obtained from OpenPose detection.
+
+
 ## Results
 
 ### Pose Classifier
@@ -154,14 +161,14 @@ The image above shows the image after being processed using the `analyze` method
 
 ### Comparing Rule-Based Classifier and Deep Neural Network Classifier Performance
 
-The number and its pose representation are as the table below
+The number and its pose representation are as the table below.
 | Number | Pose       |
 |--------|------------|
 | `0`    | `UNKNOWN`  |
 | `1`    | `SITTING`  |
 | `2`    | `STANDING` |
 
-Here are the confusion matrices for classifying poses using rule-based classifier and deep neural network classifier
+Here are the confusion matrices for classifying poses using rule-based classifier and deep neural network classifier.
 | Rule-Based Classifier | Deep Neural Network Classifier |
 |-----------------------|--------------------------------|
 | ![rule-based confusion matrix](dataset/rb.png)  | ![dnn confusion matrix](dataset/dnn.png)          |
