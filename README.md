@@ -148,7 +148,20 @@ The method `analyze` consists of the whole pipeline to process a video frame-by-
 ## Results
 
 ### Pose Classifier
+![image 1](/images/Subway/processed/20200527-210334-00010.jpg)
+The image above shows the image after being processed using the `analyze` method of `ImagePose` class available in `image_pose.py`
 
-![image1](/images/Subway/processed/20200527-210334-00010.jpg)
 
+### Comparing Rule-Based Classifier and Deep Neural Network Classifier Performance
 
+The number and its pose representation are as the table below
+| Number | Pose       |
+|--------|------------|
+| `0`    | `UNKNOWN`  |
+| `1`    | `SITTING`  |
+| `2`    | `STANDING` |
+
+Here is the confusion matrix for classifying poses using rule-based classifier and deep neural network classifier
+| Rule-Based Classifier | Deep Neural Network Classifier |
+|-----------------------|--------------------------------|
+| ![rule-based confusion matrix](dataset/rb.png)  | ![dnn confusion matrix](dataset/dnn.png)          |
