@@ -161,7 +161,18 @@ The number and its pose representation are as the table below
 | `1`    | `SITTING`  |
 | `2`    | `STANDING` |
 
-Here is the confusion matrix for classifying poses using rule-based classifier and deep neural network classifier
+Here are the confusion matrices for classifying poses using rule-based classifier and deep neural network classifier
 | Rule-Based Classifier | Deep Neural Network Classifier |
 |-----------------------|--------------------------------|
 | ![rule-based confusion matrix](dataset/rb.png)  | ![dnn confusion matrix](dataset/dnn.png)          |
+
+We can see that the overall accuracy for deep neural network classifier is higher than the accuracy of rule-based classifier, which implies that the deep neural network classifier is able to detect features that are not obviously seen to us.
+
+
+### Keypoint Tracking
+![image 1](/videos/00001/00001.gif)
+The GIF above shows the result of keypoint tracking frame by frame.
+
+
+## References
+- https://github.com/CMU-Perceptual-Computing-Lab/openpose
