@@ -147,7 +147,7 @@ The method `analyze` consists of the whole pipeline to process a video frame-by-
 
 ## Jupyter Notebook
 
-#### 1. [dataset/Pose_Estimation_Training](https://github.com/weichee98/Human-Activity-Recognition/blob/master/dataset/Pose_Estimation_Training.ipynb)
+#### 1. [dataset/Pose_Estimation_Training.ipynb](https://github.com/weichee98/Human-Activity-Recognition/blob/master/dataset/Pose_Estimation_Training.ipynb)
 
 This Jupyter Notebook contains code for modeling, training and evaluating of the deep neural network classifier created to predict a person's pose using keypoints obtained from OpenPose detection.
 
